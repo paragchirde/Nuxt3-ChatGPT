@@ -14,8 +14,9 @@
             type="text"
             id="website-admin"
             class="rounded-none bg-gray-50 border border-gray-300 text-gray-900 focus:ring-0 focus:border-none block flex-1 min-w-0 w-full text-sm p-4"
-            placeholder="Hey Chat GPT, write me a poem on life"
+            placeholder="Hey Chat GPT, write me a poem on life. (Max 54 characters)"
             v-model="message"
+            maxlength="54"
           />
           <span
             @click="send()"
