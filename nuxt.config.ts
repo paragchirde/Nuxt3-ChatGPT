@@ -2,12 +2,16 @@
 export default defineNuxtConfig({
     app: {
         head: {
-          title: 'Chat GPT',
+          title: 'Nuxt 3 ChatGPT API Demo',
           link: [{ rel: 'icon', type: 'image/*', href: '/favicon.svg' }],
           script: [{
             src: 'https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js'
           }]
         }
+      },
+      meta: {
+        title: 'Nuxt 3 ChatGPT API Demo',
+        description: 'Nuxt 3 ChatGPT API'
       },
       runtimeConfig: {
         public:{
